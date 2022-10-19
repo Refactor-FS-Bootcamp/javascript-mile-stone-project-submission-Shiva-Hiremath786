@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+table, footer {
+    margin-top: 60px;
+}
+form {
+    background-color: #cfe2ff;
+    padding: 15px;
+    width: 60%;
+    max-width: 600px;
+    margin: 60px auto;
+    border-radius:30px;
+}
+textarea {
+    font-family: sans-serif;
+}
+button{
+    padding: 10px;
+    background-color: #0d6efd;
+    border-style: none;
+    border-radius: 5px;
+    margin: 1px;
+}
+.btn-w-150 {
+    width: 150px;
+}
+.nav-link {
+    color: #fff;
+}
+.nav-active {
+    background-color: rgba(165, 171, 172, 0.699);
+}
+.main {
+    margin: auto;
+}
+.heading {
+    text-align: left;
+    padding: 10px 15px;
+    margin: 5px;
+}
+.input-box {
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    width: 90%;
+}
+.btn-delete {
+    background-color: crimson;
+    padding: 0;
+}
+.btn-edit{
+    padding: 0;
+}
+.fa-solid {
+    padding: 10px;
+}
+.top {
+    margin: 5px 20px;
+    margin-top: 60px;
+}
+.search {
+    width: 30%;
+    left: 20px;
+}
+.btn-search {
+    margin-right: 5px;
+}
+.tableParent {
+    width: 80%; 
+    margin: auto;
+}
+main {
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    background-color: #f9f9f9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .main-h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    word-spacing: 3px;
+  }
+  .main-h1:hover {
+    color: rgb(137, 238, 43);
+  }
+  footer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: rgba(69, 69, 233, 0.705);
+    justify-content: center;
+    align-items: center;
+  }
+  small {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    color: #000000;
+  }
