@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserve Table</title>
+    <!-- custom css file link -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <a href="#" class="logo"><img src="logo.png" /></a>
+
+      <nav class="navbar">
+        <a href="index.html" class="active">home</a>
+
+        <a href="menu.html">menu</a>
+
+        <a href="reserve.html">reservation</a>
+        <a href="Booked.html">Booked details</a>
+      </nav>
+    </header>
+    <!-- header section end -->
+    <div class="design">
+      <div class="reservation" id="reservation">
+        <div class="form">
+          <h1 class="heading">book a table</h1>
+          <form role="form">
+            <div class="form-holder">
+              <div>
+                <input
+                  type="number"
+                  id="people"
+                  name="people"
+                  placeholder="people"
+                />
+                <input type="text" id="time" name="time" placeholder="Time" />
+                <input
+                  type="number"
+                  id="number"
+                  name="number"
+                  placeholder="Phone"
+                />
+              </div>
+              <div>
+                <input type="date" id="date" name="date" placeholder="Date" />
+                <input type="text" id="name" name="name" placeholder="Name" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="email"
+                />
+              </div>
+            </div>
+            <center>
+              <button type="submit" class="btn" id="Book">Book now</button>
+            </center>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
