@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>comment app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="title">
+      <h2>Comments Page</h2>
+    </header>
+
+    <div class="container">
+      <form class="fieldset" onsubmit="event.preventDefault()">
+        <input
+          type="text"
+          name="title"
+          class="input"
+          id="username"
+          placeholder="Enter Username"
+        /><br /><br />
+        <textarea
+          name="text"
+          class="input"
+          id="comments"
+          cols="30"
+          rows="8"
+          placeholder="Comment here"
+        ></textarea
+        ><br /><br />
+        <button type="submit" id="Btn" onclick="Add()">Add comment</button>
+      </form>
+    </div>
+
+    <div class="output">
+      <h1>All Comments</h1>
+      <div class="comments" id="output"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
